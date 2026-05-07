@@ -40,7 +40,7 @@ layers:
   - {t: '&to_layer_0 LANG2', h: '2'}
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '1'}
-  - {t: '&to_layer_0 BS', h: '1'}
+  - {t: '&to_layer_0 BACKSPACE', h: '1'}
   - {t: ENTER, h: '2'}
   - '!'
   '1':
