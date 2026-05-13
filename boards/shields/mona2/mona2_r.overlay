@@ -61,8 +61,8 @@
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
-    //通常時のカーソル移動を左右反転させる 
-    input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>;
+    /* X軸(左右)とY軸(上下)の両方を反転させる */
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
     scroller {
         layers = <2>;
         input-processors = <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
